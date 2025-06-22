@@ -1,0 +1,21 @@
+.learn-btn {
+  margin-top: 25px;
+  display: block;
+  width: fit-content;
+  background-color: goldenrod;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover {
+  background-color: gold;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+

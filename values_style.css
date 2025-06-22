@@ -1,0 +1,17 @@
+.company-values {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background: rgb(150, 245, 170);
+  border-left: 5px solid #0b3d91;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+
+  /* scroll control */
+  max-height: 300px;       
+  overflow-y: auto;        
+  scrollbar-width: thin;  
+}
+.company-values {
+  margin: 10px auto 40px auto; /* top, right/left, bottom */
+}

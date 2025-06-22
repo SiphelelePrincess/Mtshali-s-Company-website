@@ -1,0 +1,30 @@
+#contact-info {
+  padding: 40px 20px;
+  background-color: #ecdc4d;
+}
+
+.contact-box {
+  background: #e4ef7d;
+  padding: 25px;
+  border-left: 5px solid #0b3d91;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #333;
+}
+
+.contact-list li strong {
+  color: #0b3d91;
+}
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  align-items: start;
+}
